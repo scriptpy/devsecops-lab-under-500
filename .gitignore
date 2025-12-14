@@ -1,0 +1,64 @@
+# Secrets and sensitive files
+.env
+*.gpg
+secrets.gpg
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Docker
+.dockerignore
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Budget file (optional - remove if you want to track publicly)
+# docs/budget.xlsx
+
+# Local context files (not for public repo)
+PROJECT-MASTER-PLAN.md
+WEEK-00-GUIDE.md
+
