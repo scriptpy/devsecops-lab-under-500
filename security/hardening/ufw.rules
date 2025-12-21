@@ -1,0 +1,20 @@
+# UFW Firewall Rules for Kali Lab
+# Created: Week 1
+
+# Default policies
+# Deny all incoming connections by default
+# Allow all outgoing connections by default
+
+# SSH access (required for remote management)
+# Allow SSH on port 22
+ufw allow 22/tcp
+
+# Example: If you need to allow other services later, add them here:
+# ufw allow 80/tcp    # HTTP
+# ufw allow 443/tcp   # HTTPS
+# ufw allow 8080/tcp  # Custom service
+
+# To view current rules: sudo ufw status verbose
+# To add a rule: sudo ufw allow <port>/<protocol>
+# To delete a rule: sudo ufw delete <rule_number>
+

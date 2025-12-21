@@ -42,11 +42,12 @@ devsecops-lab-under-500/
 
 ## Getting Started
 
-Week 0 is done - repo set up, hardware bought, first blog post written. Week 1 is installing and hardening Kali Linux on the ThinkPad.
+Week 0 and Week 1 are done - repo set up, hardware bought, Kali Linux installed and hardened. Week 2 is setting up NetHunter on Android devices (or VM alternative).
 
 ## Blog Posts
 
 - [Week 0: Sprint 0 - Hardware Sourcing & Platform Setup](blog/week-00-setup.md)
+- [Week 1: Installing & Hardening Kali Linux](blog/week-01-install.md)
 
 ## Skills I'm Learning
 
@@ -66,5 +67,5 @@ Open source, educational purposes.
 
 ---
 
-Status: Week 0 complete, starting Week 1
+Status: Week 1 complete, starting Week 2
 
