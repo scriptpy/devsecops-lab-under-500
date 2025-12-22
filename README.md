@@ -63,7 +63,11 @@ Week 0 and Week 1 are done - repo set up, hardware bought, Kali Linux installed 
 
 ## License
 
-Open source, educational purposes.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
+
+See [LICENSE](LICENSE) file for full license text and disclaimer.
+
+**Important:** This project is for educational purposes only. Users are responsible for ensuring their use complies with all applicable laws. Unauthorized access to computer systems is illegal.
 
 ---
 
