@@ -42,12 +42,13 @@ devsecops-lab-under-500/
 
 ## Getting Started
 
-Week 0 and Week 1 are done - repo set up, hardware bought, Kali Linux installed and hardened. Week 2 is setting up NetHunter on Android devices (or VM alternative).
+Week 0, Week 1, and Week 2 are done - repo set up, hardware bought, Kali Linux installed and hardened, NetHunter installed on OnePlus 7 Pro. Week 3 is next - setting up Infrastructure as Code with Terraform.
 
 ## Blog Posts
 
 - [Week 0: Sprint 0 - Hardware Sourcing & Platform Setup](blog/week-00-setup.md)
 - [Week 1: Installing & Hardening Kali Linux](blog/week-01-install.md)
+- [Week 2: Creating a Mobile Security Hub (NetHunter + Termux)](blog/week-02-nethunter.md)
 
 ## Skills I'm Learning
 
@@ -71,5 +72,5 @@ See [LICENSE](LICENSE) file for full license text and disclaimer.
 
 ---
 
-Status: Week 1 complete, starting Week 2
+Status: Week 2 complete, ready for Week 3
 

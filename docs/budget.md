@@ -33,6 +33,8 @@ Tracking expenses for the DevSecOps lab project. Goal is to stay under $500.
 | Week | Cost This Week | Running Total | Notes |
 |------|----------------|---------------|-------|
 | 0 | $445 | $445 | Hardware purchases: ThinkPad laptop, 3 Android phones, USB sticks, charging station, cables |
+| 1 | $0 | $445 | Software installation only (all free) |
+| 2 | $0 | $445 | NetHunter installation (all software free) |
 
 ## Cost saving tips
 
@@ -46,5 +48,5 @@ Tracking expenses for the DevSecOps lab project. Goal is to stay under $500.
 
 All costs in USD. Tracking one-time and recurring costs. Update weekly. Document any free credits or discounts.
 
-Last updated: Week 0 - December 2025
+Last updated: Week 2 - December 2025
 
