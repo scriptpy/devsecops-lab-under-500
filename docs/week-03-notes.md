@@ -78,6 +78,7 @@
 ## Challenges Encountered
 - **Oracle Cloud signup failed:** Could not complete registration process. Switched to DigitalOcean as alternative.
 - **DigitalOcean card issue:** Monese card not accepted by DigitalOcean. Need alternative provider or verification method.
+- **GitHub Pages image paths:** Images not showing on GitHub Pages. Fixed by using absolute paths (`/devsecops-lab-under-500/assets/images/...`) instead of relative paths.
 
 ## Lessons Learned
 - **HCL syntax:** No commas between items in blocks - items separated by newlines only
@@ -110,8 +111,10 @@
 - **Total Week 3 Cost:** $0
 
 ## Next Steps
-1. Choose cloud provider
-2. Sign up and configure billing alerts
-3. Install Terraform
-4. Start learning Terraform basics
+1. ✅ Choose cloud provider - **DONE** (learned locally)
+2. ⏸️ Sign up and configure billing alerts - **DEFERRED** (payment method issues)
+3. ✅ Install Terraform - **DONE**
+4. ✅ Start learning Terraform basics - **DONE**
+5. ✅ Write blog post - **DONE**
+6. 🔄 Publish to GitHub Pages, Medium, LinkedIn - **IN PROGRESS**
 
