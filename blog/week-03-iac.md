@@ -33,13 +33,13 @@ Started with a basic structure:
 
 Created a simple file resource that writes "Hello from Terraform!" to a text file. Ran `terraform init` to download the provider, `terraform plan` to see what it would do, then `terraform apply` to actually create it. It worked! The file appeared in the output folder.
 
-![Output file created](assets/images/week%203/output%20file%20applied.png)
+![Output file created](/devsecops-lab-under-500/assets/images/week%203/output%20file%20applied.png)
 
-![First Terraform init](assets/images/week%203/first%20terraform%20%20.png)
+![First Terraform init](/devsecops-lab-under-500/assets/images/week%203/first%20terraform%20%20.png)
 
-![Terraform plan output](assets/images/week%203/terraform%20plan.png)
+![Terraform plan output](/devsecops-lab-under-500/assets/images/week%203/terraform%20plan.png)
 
-![Terraform apply output](assets/images/week%203/terraform%20apply.png)
+![Terraform apply output](/devsecops-lab-under-500/assets/images/week%203/terraform%20apply.png)
 
 ### Learning Variables
 
@@ -47,9 +47,9 @@ Next learned about variables. Instead of hardcoding values in your config, you p
 
 Created a `message` variable with a default value. Then updated my file resource to use `var.message` instead of hardcoded text. Ran `terraform apply` again - Terraform detected the change and updated the file. Pretty cool how it tracks what changed.
 
-![Terraform plan with variable](assets/images/week%203/terraform%20var.message%20plan.png)
+![Terraform plan with variable](/devsecops-lab-under-500/assets/images/week%203/terraform%20var.message%20plan.png)
 
-![Terraform apply with variable](assets/images/week%203/terraform%20var.message%20applied.png)
+![Terraform apply with variable](/devsecops-lab-under-500/assets/images/week%203/terraform%20var.message%20applied.png)
 
 ### Learning Outputs
 
@@ -61,11 +61,11 @@ Also learned about sensitive outputs - if you mark an output as `sensitive = tru
 
 Added the random provider to generate random values. Created a `random_string` resource that generates a 16-character password with special characters, uppercase, lowercase, and numbers. Used it in an output marked as sensitive.
 
-![Terraform init with random provider](assets/images/week%203/terraform%20innit%20with%20added%20random%20provider.png)
+![Terraform init with random provider](/devsecops-lab-under-500/assets/images/week%203/terraform%20innit%20with%20added%20random%20provider.png)
 
-![Terraform plan with random provider](assets/images/week%203/terraform%20plan%20aftert%20adding%20random.png)
+![Terraform plan with random provider](/devsecops-lab-under-500/assets/images/week%203/terraform%20plan%20aftert%20adding%20random.png)
 
-![Terraform apply with random password](assets/images/week%203/terraform%20apply%20after%20random.png)
+![Terraform apply with random password](/devsecops-lab-under-500/assets/images/week%203/terraform%20apply%20after%20random.png)
 
 This showed me how to use multiple providers in the same configuration. Terraform handles downloading and managing them all.
 
@@ -79,7 +79,7 @@ Turns out HCL doesn't use commas between items in blocks. Items are just separat
 
 Ran `terraform destroy` to see how to clean everything up. It showed what would be deleted, asked for confirmation, then removed all the resources. The file was gone, the random password resource was gone. Complete lifecycle: create, update, destroy.
 
-![Terraform destroy output](assets/images/week%203/terraform%20destroy.png)
+![Terraform destroy output](/devsecops-lab-under-500/assets/images/week%203/terraform%20destroy.png)
 
 ### Creating Cloud-Ready Templates
 
