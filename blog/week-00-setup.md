@@ -30,11 +30,23 @@ Figured out I'll publish on GitHub Pages, cross-post to Medium, and share on Lin
 
 Lab laptop: Bought a used ThinkPad 495 Office Edition for $210. Has 500GB SSD and 8GB RAM, should be enough for Kali Linux. Found it locally, ThinkPads are reliable so went with it.
 
+![Laptop specs](assets/images/week%200/laptop%20specs.jpeg)
+
 Android devices: Ended up buying three phones - OnePlus 7 Pro ($60, has screen burn and a crack but works), Honor P 70 Lite ($50), and Redmi A3 ($50). The OnePlus will be the main one for NetHunter since it's the most capable. The other two are backups. Probably overkill but whatever.
+
+![Phones and cables](assets/images/week%200/phones%20and%20cables.jpeg)
 
 Cloud VM: Haven't decided yet. Options are DigitalOcean ($200 free credit), Linode ($100 free), or Oracle Cloud (always free). Will figure it out in Week 3 when I actually need it. Probably DigitalOcean for the bigger credit.
 
 Other stuff: USB charging station ($40) - seemed useful for managing all these devices. Cables ($10). Two USB sticks - 64GB and 128GB SanDisk ($25 total) for Kali installation and backups.
+
+![Docking station](assets/images/week%200/docking%20station.jpeg)
+
+![Phone docking station](assets/images/week%200/phone%20docking%20station.jpeg)
+
+![Docked phones charging](assets/images/week%200/docked%20phones%20charging.jpeg)
+
+![USB stick](assets/images/week%200/usb.jpeg)
 
 ## Challenges
 

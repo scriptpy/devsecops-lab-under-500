@@ -22,6 +22,10 @@ Upgraded to OxygenOS 11.0.9.1 (Android 11). The upgrade wiped root access, which
 
 After the upgrade, needed to get root access again. Downloaded the full OTA zip, extracted the boot image from it using a Python script called payload_dumper, transferred it to the phone, patched it with Magisk app, then flashed the patched boot image back via fastboot. This worked - root was back.
 
+![Phone in fastboot mode](assets/images/week%202/phone%20in%20fastboot%20mode.jpeg)
+
+![PowerShell showing device connected](assets/images/week%202/powershell%20showing%20device%20connected.png)
+
 ### Installing TWRP
 
 Tried to install TWRP custom recovery. This is where things got complicated.
@@ -32,6 +36,8 @@ Tried temporary boot of TWRP - kept failing with errors. Tried different TWRP ve
 
 Finally got it working with temporary boot on what felt like the 10th attempt. TWRP booted successfully. Couldn't install it permanently, but temporary boot works fine for what we need.
 
+![TWRP booted successfully](assets/images/week%202/WhatsApp%20Image%202025-12-27%20at%2010.30.26.jpeg)
+
 ### Disabling Force Encryption
 
 According to the official guide, need to disable force encryption. Booted into TWRP, formatted the /data partition using ADB commands. This wiped everything (factory reset) - expected behavior. Tried to flash a disable encryption zip, but it kept failing because the file was corrupted. Since we formatted /data, encryption is likely already disabled anyway, so skipped it.
@@ -40,13 +46,19 @@ According to the official guide, need to disable force encryption. Booted into T
 
 This is where it got interesting. Tried to flash NetHunter zip via TWRP - got Error 1. Checked the TWRP logs and found a message saying the device is "dynamic" and NetHunter can't be installed via recovery - needs to be installed via Magisk as a module instead.
 
+![NetHunter installation error in TWRP](assets/images/week%202/WhatsApp%20Image%202025-12-27%20at%2011.00.00.jpeg)
+
 So the process became: reinstall Magisk (get root back after factory reset), then install NetHunter as a Magisk module instead of via TWRP.
 
 Downloaded NetHunter 2025.4 image (2.4 GB). Transferred it to the phone. In Magisk app, went to Modules tab, selected "Install from storage", chose the NetHunter zip. Magisk started installing it as a module.
 
 The Kali chroot installation took about 25 minutes - it's extracting and setting up the full Kali Linux environment. Just had to wait and let it finish.
 
+![NetHunter installation in progress](assets/images/week%202/WhatsApp%20Image%202025-12-27%20at%2011.12.36.jpeg)
+
 After installation, rebooted the phone. NetHunter app appeared in the app drawer. Opened it - everything working!
+
+![NetHunter installed and working](assets/images/week%202/WhatsApp%20Image%202025-12-27%20at%2011.54.35.jpeg)
 
 ### Disabling OnePlus Updates
 
@@ -57,6 +69,8 @@ Important step - disabled OnePlus update service to prevent automatic updates th
 **Finding the right ROM:** Spent too much time searching for Android 11 ROM downloads when the easiest method was just using System Updates in phone settings. Lesson learned - check the simplest solution first.
 
 **TWRP installation:** Android 11 doesn't have a separate recovery partition, so permanent TWRP installation is tricky. Temporary boot works fine though. Tried multiple methods - fastboot flash, Flashify app, Magisk - none worked for permanent installation. Eventually got temporary boot working which is enough.
+
+![Windows not recognizing device](assets/images/week%202/windows%20not%20recognizing%20device.png)
 
 **NetHunter installation method:** The official guide says to install via TWRP, but newer devices require Magisk module installation instead. The error message in TWRP logs was helpful - it told us exactly what to do. This was the breakthrough moment.
 

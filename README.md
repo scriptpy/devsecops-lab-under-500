@@ -42,13 +42,14 @@ devsecops-lab-under-500/
 
 ## Getting Started
 
-Week 0, Week 1, and Week 2 are done - repo set up, hardware bought, Kali Linux installed and hardened, NetHunter installed on OnePlus 7 Pro. Week 3 is next - setting up Infrastructure as Code with Terraform.
+Week 0, Week 1, Week 2, and Week 3 are done - repo set up, hardware bought, Kali Linux installed and hardened, NetHunter installed on OnePlus 7 Pro, Terraform learned locally with cloud-ready templates created. Week 4 is next - building the log collector agent.
 
 ## Blog Posts
 
 - [Week 0: Sprint 0 - Hardware Sourcing & Platform Setup](blog/week-00-setup.md)
 - [Week 1: Installing & Hardening Kali Linux](blog/week-01-install.md)
 - [Week 2: Creating a Mobile Security Hub (NetHunter + Termux)](blog/week-02-nethunter.md)
+- [Week 3: Infrastructure as Code with Terraform](blog/week-03-iac.md)
 
 ## Skills I'm Learning
 
@@ -72,5 +73,5 @@ See [LICENSE](LICENSE) file for full license text and disclaimer.
 
 ---
 
-Status: Week 2 complete, ready for Week 3
+Status: Week 3 complete, ready for Week 4
 
