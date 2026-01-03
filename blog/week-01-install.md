@@ -10,47 +10,47 @@ Week 1 is done. Installed Kali Linux on the ThinkPad and did some basic security
 
 Started by downloading the Kali installer ISO from the official site. Used the installer image (not the live image) since I wanted to install it permanently on the ThinkPad.
 
-![Kali installer download page](assets/images/week%201/kali%20installer%20images.png)
+![Kali installer download page](/devsecops-lab-under-500/assets/images/week%201/kali%20installer%20images.png)
 
 Used Rufus on Windows to flash the 64GB USB stick. Rufus is straightforward - select the USB drive, choose the ISO, and click start. First issue - Windows Defender flagged a bunch of Kali files as threats. This is normal, Kali has penetration testing tools that antivirus software doesn't like. Had to allow the files or Defender would quarantine them.
 
-![Rufus setup](assets/images/week%201/rufus.png)
+![Rufus setup](/devsecops-lab-under-500/assets/images/week%201/rufus.png)
 
-![USB being written](assets/images/week%201/usb%20being%20written.png)
+![USB being written](/devsecops-lab-under-500/assets/images/week%201/usb%20being%20written.png)
 
 Booted from USB on the ThinkPad, went with "Graphical Install" option. The boot menu appeared and I selected the USB drive.
 
-![Boot menu](assets/images/week%201/1st%20boot%20menu.jpeg)
+![Boot menu](/devsecops-lab-under-500/assets/images/week%201/1st%20boot%20menu.jpeg)
 
 Installation started fine. Selected wireless network interface since I didn't have an Ethernet cable handy.
 
-![Network configuration](assets/images/week%201/network%20config.jpeg)
+![Network configuration](/devsecops-lab-under-500/assets/images/week%201/network%20config.jpeg)
 
 Chose "Guided - use entire disk" for partitioning to wipe Windows completely.
 
-![Partitioning method](assets/images/week%201/partition%20option.jpeg)
+![Partitioning method](/devsecops-lab-under-500/assets/images/week%201/partition%20option.jpeg)
 
-![Partition scheme](assets/images/week%201/partitions.jpeg)
+![Partition scheme](/devsecops-lab-under-500/assets/images/week%201/partitions.jpeg)
 
 Confirmed the partition changes - this would wipe everything on the disk.
 
-![Partition confirmation](assets/images/week%201/partition%20confirm.jpeg)
+![Partition confirmation](/devsecops-lab-under-500/assets/images/week%201/partition%20confirm.jpeg)
 
 Installation was going fine until it hit the software selection step - failed when trying to install the full desktop and tools. Tried a few times, kept failing.
 
-![Software selection](assets/images/week%201/software%20selection.jpeg)
+![Software selection](/devsecops-lab-under-500/assets/images/week%201/software%20selection.jpeg)
 
-![Installation error](assets/images/week%201/install%20step%20failed.jpeg)
+![Installation error](/devsecops-lab-under-500/assets/images/week%201/install%20step%20failed.jpeg)
 
 Workaround: Installed minimal system first (unchecked everything in software selection), then after installation completed, installed the full desktop and tools with `sudo apt install kali-linux-default -y`. This worked fine. Took about 30-40 minutes for the full install.
 
-![Minimal install options](assets/images/week%201/minimal%20options.jpeg)
+![Minimal install options](/devsecops-lab-under-500/assets/images/week%201/minimal%20options.jpeg)
 
-![Minimal install complete](assets/images/week%201/minimal%20install%20complete.jpeg)
+![Minimal install complete](/devsecops-lab-under-500/assets/images/week%201/minimal%20install%20complete.jpeg)
 
 After the minimal install, I updated the system and installed the full desktop environment.
 
-![System updating](assets/images/week%201/updating.jpeg)
+![System updating](/devsecops-lab-under-500/assets/images/week%201/updating.jpeg)
 
 Set hostname to `kali-lab` during installation. Used wireless connection since I didn't have an Ethernet cable handy.
 
@@ -72,11 +72,11 @@ Restarted SSH service. Now I can only access the lab via SSH key, which is more 
 
 Here's the first login after installation:
 
-![First Kali login](assets/images/week%201/1st%20kali%20login.jpeg)
+![First Kali login](/devsecops-lab-under-500/assets/images/week%201/1st%20kali%20login.jpeg)
 
 After getting the GUI working, here's the desktop menu:
 
-![Kali desktop menu](assets/images/week%201/1st%20kali%20menu.jpeg)
+![Kali desktop menu](/devsecops-lab-under-500/assets/images/week%201/1st%20kali%20menu.jpeg)
 
 ### Firewall (ufw)
 
@@ -90,7 +90,7 @@ Basic setup but it works. Can always add more rules later if needed.
 
 First sudo command to configure the firewall:
 
-![First sudo command](assets/images/week%201/1st%20sudo%20cmd.jpeg)
+![First sudo command](/devsecops-lab-under-500/assets/images/week%201/1st%20sudo%20cmd.jpeg)
 
 ### AppArmor
 
@@ -110,7 +110,7 @@ Checked what services were running and enabled. Decided to keep everything for n
 
 **GUI setup:** After installation, had to manually install and configure lightdm to get the desktop working. Not a big deal but took some troubleshooting. First boot showed no GUI, just command line.
 
-![System reboot no GUI](assets/images/week%201/system%20reboot%20no%20gui.jpeg)
+![System reboot no GUI](/devsecops-lab-under-500/assets/images/week%201/system%20reboot%20no%20gui.jpeg)
 
 After installing lightdm and the full desktop, got the GUI working.
 
