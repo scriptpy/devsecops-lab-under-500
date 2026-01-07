@@ -42,7 +42,7 @@ devsecops-lab-under-500/
 
 ## Getting Started
 
-Week 0, Week 1, Week 2, and Week 3 are done - repo set up, hardware bought, Kali Linux installed and hardened, NetHunter installed on OnePlus 7 Pro, Terraform learned locally with cloud-ready templates created. Week 4 is next - building the log collector agent.
+Week 0, Week 1, Week 2, Week 3, and Week 4 are complete - repo set up, hardware bought, Kali Linux installed and hardened, NetHunter installed on OnePlus 7 Pro, Terraform learned locally, and log collector agent built with secure secret handling.
 
 ## Blog Posts
 
@@ -50,6 +50,7 @@ Week 0, Week 1, Week 2, and Week 3 are done - repo set up, hardware bought, Kali
 - [Week 1: Installing & Hardening Kali Linux](blog/week-01-install.md)
 - [Week 2: Creating a Mobile Security Hub (NetHunter + Termux)](blog/week-02-nethunter.md)
 - [Week 3: Infrastructure as Code with Terraform](blog/week-03-iac.md)
+- [Week 4: Building the Agent (Python/Bash Log Collector)](blog/week-04-logger.md)
 
 ## Skills I'm Learning
 
@@ -73,5 +74,5 @@ See [LICENSE](LICENSE) file for full license text and disclaimer.
 
 ---
 
-Status: Week 3 complete, ready for Week 4
+Status: Week 4 complete, ready for Week 5
 
