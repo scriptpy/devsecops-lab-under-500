@@ -1,5 +1,14 @@
 # Week 3: Infrastructure as Code with Terraform
 
+**Copyright (C) 2026  G A Istrati**
+
+This work is licensed under the GNU General Public License v3.0 (GPL-3.0).
+See LICENSE file for full license text.
+
+**Disclaimer:** This project is for educational purposes only. Users are responsible for ensuring their use complies with all applicable laws.
+
+---
+
 Date: 01/01/2026
 
 Week 3 is done. Learned Terraform and Infrastructure as Code (IaC). Was supposed to provision a cloud VM, but hit some payment method issues, so ended up learning Terraform locally first. Turned out to be a good approach - got the fundamentals down before dealing with cloud providers.

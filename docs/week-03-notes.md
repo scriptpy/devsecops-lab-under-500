@@ -1,5 +1,14 @@
 # Week 3 - Infrastructure as Code (Terraform) Notes
 
+**Copyright (C) 2026  G A Istrati**
+
+This work is licensed under the GNU General Public License v3.0 (GPL-3.0).
+See LICENSE file for full license text.
+
+**Disclaimer:** This project is for educational purposes only. Users are responsible for ensuring their use complies with all applicable laws.
+
+---
+
 ## Current Status
 - **Week:** 3
 - **Goal:** Provision a cloud VM using Terraform (Infrastructure as Code)

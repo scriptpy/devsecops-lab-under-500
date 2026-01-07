@@ -1,5 +1,14 @@
 # Week 2 - NetHunter Installation Notes
 
+**Copyright (C) 2026  G A Istrati**
+
+This work is licensed under the GNU General Public License v3.0 (GPL-3.0).
+See LICENSE file for full license text.
+
+**Disclaimer:** This project is for educational purposes only. Users are responsible for ensuring their use complies with all applicable laws.
+
+---
+
 ## Current Status
 - Device: OnePlus 7 Pro (GM1913)
 - Android: 10 (Oxygen OS 10.0.10.GM21BA)

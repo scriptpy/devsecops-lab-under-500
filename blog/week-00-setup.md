@@ -1,5 +1,14 @@
 # Week 0: Sprint 0 - Hardware Sourcing & Platform Setup
 
+**Copyright (C) 2026  G A Istrati**
+
+This work is licensed under the GNU General Public License v3.0 (GPL-3.0).
+See LICENSE file for full license text.
+
+**Disclaimer:** This project is for educational purposes only. Users are responsible for ensuring their use complies with all applicable laws.
+
+---
+
 Date: 14/12/2025
 
 So this is Week 0 of my $500 DevSecOps pipeline project. Basically just setting everything up - creating the repo, figuring out how I'm going to publish this stuff, and buying the hardware I need.
@@ -30,23 +39,23 @@ Figured out I'll publish on GitHub Pages, cross-post to Medium, and share on Lin
 
 Lab laptop: Bought a used ThinkPad 495 Office Edition for $210. Has 500GB SSD and 8GB RAM, should be enough for Kali Linux. Found it locally, ThinkPads are reliable so went with it.
 
-![Laptop specs](/devsecops-lab-under-500/assets/images/week%200/laptop%20specs.jpeg)
+![Laptop specs](assets/images/week%200/laptop%20specs.jpeg)
 
 Android devices: Ended up buying three phones - OnePlus 7 Pro ($60, has screen burn and a crack but works), Honor P 70 Lite ($50), and Redmi A3 ($50). The OnePlus will be the main one for NetHunter since it's the most capable. The other two are backups. Probably overkill but whatever.
 
-![Phones and cables](/devsecops-lab-under-500/assets/images/week%200/phones%20and%20cables.jpeg)
+![Phones and cables](assets/images/week%200/phones%20and%20cables.jpeg)
 
 Cloud VM: Haven't decided yet. Options are DigitalOcean ($200 free credit), Linode ($100 free), or Oracle Cloud (always free). Will figure it out in Week 3 when I actually need it. Probably DigitalOcean for the bigger credit.
 
 Other stuff: USB charging station ($40) - seemed useful for managing all these devices. Cables ($10). Two USB sticks - 64GB and 128GB SanDisk ($25 total) for Kali installation and backups.
 
-![Docking station](/devsecops-lab-under-500/assets/images/week%200/docking%20station.jpeg)
+![Docking station](assets/images/week%200/docking%20station.jpeg)
 
-![Phone docking station](/devsecops-lab-under-500/assets/images/week%200/phone%20docking%20station.jpeg)
+![Phone docking station](assets/images/week%200/phone%20docking%20station.jpeg)
 
-![Docked phones charging](/devsecops-lab-under-500/assets/images/week%200/docked%20phones%20charging.jpeg)
+![Docked phones charging](assets/images/week%200/docked%20phones%20charging.jpeg)
 
-![USB stick](/devsecops-lab-under-500/assets/images/week%200/usb.jpeg)
+![USB stick](assets/images/week%200/usb.jpeg)
 
 ## Challenges
 

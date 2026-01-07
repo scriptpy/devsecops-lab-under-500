@@ -1,5 +1,14 @@
 # DigitalOcean Cloud VM Template
 
+**Copyright (C) 2026  G A Istrati**
+
+This work is licensed under the GNU General Public License v3.0 (GPL-3.0).
+See LICENSE file for full license text.
+
+**Disclaimer:** This project is for educational purposes only. Users are responsible for ensuring their use complies with all applicable laws.
+
+---
+
 This is a ready-to-use Terraform template for creating a VM (droplet) on DigitalOcean.
 
 ## Prerequisites
